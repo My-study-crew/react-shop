@@ -12,7 +12,9 @@ const Login = () => {
                 />
 
                 <h1 className="title">Create a new password</h1>
-                <p className="subtitle">Enter a new password for yue account</p>
+                <p className="subtitle">
+                    Enter a new password for your account
+                </p>
 
                 <form action="/" className="form">
                     <label for="password" className="label">
