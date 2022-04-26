@@ -3,8 +3,8 @@ import "../styles/PasswordRecovery.scss";
 
 const PasswordRecovery = () => {
     return (
-        <div className="PasswordRecovery">
-            <div className="PasswordRecovery-container">
+        <div className="passwordRecovery">
+            <div className="passwordRecovery-container">
                 <img
                     src="./logos/logo_yard_sale.svg"
                     alt="logo"

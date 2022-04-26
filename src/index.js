@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./routes/App.jsx";
+import App from "./routes/App.jsx"; // Route
 
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
