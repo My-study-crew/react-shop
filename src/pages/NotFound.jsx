@@ -5,8 +5,8 @@ const NotFound = () => {
     return (
         <div className="Out">
             <div className="In">
-                <h1>Page not found</h1>
-                <p>404</p>
+                <h1 className="NotFound">Page not found</h1>
+                <p className="Error">404</p>
             </div>
         </div>
     );

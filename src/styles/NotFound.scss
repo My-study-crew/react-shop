@@ -11,16 +11,24 @@ div.In {
     text-align: center;
 }
 
-h1 {
-    background-image: linear-gradient(90deg, red, blue);
+h1.NotFound {
+    background-image: linear-gradient(
+        90deg,
+        var(--very-light-pink),
+        var(--text-input-field)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-size: 4rem;
 }
 
-p {
-    background-image: linear-gradient(180deg, green, yellow);
+p.Error {
+    background-image: linear-gradient(
+        180deg,
+        var(--hospital-green),
+        var(--very-light-pink)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
