@@ -1,7 +1,7 @@
 import React from "react";
-import OrderItem from "../components/OrderItem"; // Component
-import Menu from "../components/Menu"; // Component, still no use
-import "../styles/Checkout.scss"; // Style
+import OrderItem from "@components/OrderItem"; // Component
+import Menu from "@components/Menu"; // Component, still no use
+import "@styles/Checkout.scss"; // Style
 
 const Checkout = () => {
     return (
